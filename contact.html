@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+form , input , textarea{
+    flex-direction: column;
+    gap: 14px;
+    max-width: 450px;
+    width: 100%;
+    background: transparent;
+    border-color: black;
+    border-width: 2px;
+    font-family: 'SAIRA P';
+    text-align: center;
+    color: aliceblue;
+}
+textarea {
+    height: 300px;
+    background-image: url(FORM.jpg);
+    background-size: cover;
+    color: blue;
+}
+button {
+    background: transparent;
+    font-family: 'Saira P';
+    background-image: url(FORM.jpg);
+    background-size: cover;
+}
+input {
+    background-image: url(FORM.jpg);
+    background-size: cover;
+    color: blue;
+}
+.index a {
+    font-size: 20px;
+    position: fixed;
+    top: 27px;
+    right: 40px;
+    font-family: 'SAIRA';
+    text-decoration: none;
+    color: yellow;
+}
+.about a {
+    font-size: 20px;
+    position: fixed;
+    top: 27px;
+    right: 135px;
+    font-family: 'SAIRA';
+    text-decoration: none;
+    color: yellow;
+}
+h1 {
+    font-size: 50px;
+    position: relative;
+    top: -30px;
+    left: 100px;
+    color: rgb(147, 147, 226);
+    font-family: 'SAIRA P';
+}
+
+}
+@font-face {
+    font-family: 'SAIRA';
+    src: url(Saira-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'SAIRA P';
+    src: url(Saira-VariableFont_wdth\,wght.ttf);
+}
+body {
+    background-image: url("Background Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+    </style>
+    <h1>CONTACT</h1>
+</body>
+</html>
+<div class="index">
+    <a href="index.html">HOME</a>
+    </div>
+    
+    <div class="about">
+    <a href="about.html">ABOUT</a>
+    </div>
+<form action="https://formsubmit.co/eknoor.6969@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Full Name" autocomplete="off" required>
+    <input type="email" name="email" placeholder="Email" autocomplete="off" required>
+    <textarea type="text" name="message" placeholder="Message" autocomplete="off"></textarea>
+    <button type="submit">Send</button>
+</form>
